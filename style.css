@@ -1,0 +1,596 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 100;
+
+}
+.completeheader{
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 2fr 11.6fr;
+  background-image: url(/img/Fondo.png);
+  background-size: cover;
+  background-position: center;
+}
+header{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: rgba(14, 14, 14, 0.3);
+  color: white;
+  padding: 1% 0%;
+}
+.cambiarColor{
+  color: rgb(87, 185, 255);
+}
+.menuheader{
+  display: flex;
+  justify-content: space-between;
+  height: 80%;
+  width: 100%;
+  align-items: center;
+}
+.menuheader li{
+  font-weight: 700;
+  height: 90%;
+  width: 10%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid transparent;
+}
+.menuheader li:hover{
+  border: 0.5px solid rgb(255, 255, 255);
+  color: rgb(103, 230, 255);
+}
+.Logo{
+  padding: 1%;
+}
+li{
+  list-style: none;
+}
+.Menu{
+  display: flex;
+  align-items: center;
+  width: 40%;
+  height: 60%;
+}
+.Principal{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.Principal h1{
+  font-size: 35px;
+  color: white;
+  font-weight: 100;
+  padding: .5%;
+  margin: 2px;
+  background-color: rgba(0, 0, 0, 30%);
+}
+
+
+
+.Programas{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 2fr 2fr 1fr 3fr .5fr;
+  background-color: #4acafe; 
+  min-height: 300px;
+  color: white;
+}
+#coffe{
+  grid-column: 2/3;
+  grid-row: 2/3;
+}
+#coffeh1{
+grid-column: 2/3;
+grid-row: 3/4;
+}
+#coffep{
+grid-column: 2/3;
+grid-row: 4/5;
+}
+#instant{
+grid-column: 3/4;
+grid-row: 2/3;
+}
+#instanth1{
+grid-column: 3/4;
+grid-row: 3/4;
+}
+#instantp{
+grid-column: 3/4;
+grid-row: 4/5;
+}
+#serious{
+grid-column: 4/5;
+grid-row: 2/3;
+}
+#serioush1{
+grid-column: 4/5;
+grid-row: 3/4;
+}
+#seriousp{
+grid-column: 4/5;
+grid-row: 4/5;
+}
+#frame{
+grid-column: 5/6;
+grid-row: 2/3;
+}
+#frameh1{
+grid-column: 5/6;
+grid-row: 3/4;
+}
+#framep{
+grid-column: 5/6;
+grid-row: 4/5;
+}
+
+
+
+
+
+.headerwhitepart{
+display: flex;
+justify-content: space-evenly;
+padding: 1% 0;
+align-items: center;
+}
+.part2headerwhite{
+width: 35%;
+padding: 1% 0;
+}
+.part1headerwhite{
+width: 15%;
+}
+.menuheaderwhite{
+width: 100%;
+padding: 1% 0;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+.images{
+display: grid;
+grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+grid-template-rows: 1fr 1fr 0.2fr;
+grid-template-areas: ". a b c d ."
+                      ". e f g h ." ". . . . . .";
+gap: 15px;
+}
+#fotogrids1{
+grid-area:a;
+}
+#fotogrids2{
+grid-area:b;
+}
+#fotogrids3{
+grid-area:c;
+}
+#fotogrids4{
+grid-area:d;
+}
+#fotogrids5{
+grid-area:e;
+}
+#fotogrids6{
+grid-area:f;
+}
+#fotogrids7{
+grid-area:g;
+}
+#fotogrids8{
+grid-area:h;
+}
+.imagenesgrid{
+width: 100%;
+}
+
+
+.graypart{
+display: grid;
+grid-template-columns: 1fr 2fr .5fr 5fr 1fr;
+grid-template-rows: 2fr 2fr 2fr 2fr 2fr 2fr;
+grid-template-areas: ". . . . ."
+                      ". a . b ."
+                      ". c . b  ."
+                      ". d . b ."
+                      ". e . b ."
+                      ". . . . .";
+background-color: rgb(76, 91, 102);
+gap: 23px;
+color: white;
+
+}
+.imgvideo{
+  filter: grayscale(100%);
+  gap:3fr;
+}
+.titlegraypart{
+grid-area: a;
+font-size: 20px;
+}
+.parapragphgraypart{
+  display: inline;
+grid-area: c;
+font-size: 15px;
+}
+.parapragphgraypart2{
+grid-area: d;
+display: inline;
+font-size: 15px;
+}
+.buttongraypart{
+grid-area: e;
+}
+.buttongraypart button{
+padding: 2% 5%;
+background: none;
+border: 1px solid white;
+color: white;
+cursor: pointer;
+}
+.buttongraypart button:hover{
+border-color: rgb(38, 46, 51);
+color: rgb(36, 43, 48);
+}
+.imgvideo{
+grid-area: b;
+}
+
+
+.twitterdownpart{
+display: flex;
+flex-direction: column;
+background-color: #4acafe;
+color: white;
+box-sizing: border-box;
+justify-content: space-between;
+padding: 2% 15.5%;
+}
+.tittleandimage{
+display: flex;
+align-items: center;
+justify-content: space-between;
+}
+.twitterdownpart p{
+padding: 1% 0;
+width: 50%;
+}
+.arroa{
+font-weight: bold;
+}
+
+
+
+
+.whoisjhondoe{
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+padding: 5% 15.5%;
+background-image: url(/img/bg_whoIs.png);
+color: white;
+}
+.gridjhondoe{
+display: grid;
+grid-template-columns: 3fr .2fr 3fr;
+grid-template-rows:1fr 2fr .5fr 2fr 1fr;
+grid-template-areas:  ". . ."
+                      "a . b"
+                      ". . ."
+                      "c . d"
+                      ". . .";
+}
+#part1p{
+grid-area: a;
+font-size: 13px;
+}
+#part2p{
+grid-area: b;
+font-size: 13px;
+}
+#part3p{
+grid-area: c;
+font-size: 13px;
+}
+.imagesjhondoe{
+grid-area: d;
+}
+
+
+.testimonials{
+display: grid;
+grid-template-columns: 2fr 8fr 1fr 2fr;
+grid-template-rows: 3fr 1fr 3fr 2fr 2fr;
+grid-template-areas:  ". titulo comillas ."
+                      ". . . ."
+                      ". texto . ."
+                      ". . . ."
+                      ". text . .";
+padding: 4% 0;
+}
+.tittletestimonials{
+grid-area: titulo;
+line-height: 1;
+}
+.comillas{
+font-size: 60px;
+font-weight: 900;
+color: rgb(76, 91, 102);
+text-align: center;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+grid-area: comillas;
+}
+.texttestimonials{
+line-height: 2;
+font-size: 20px;
+grid-area: texto;
+}
+.downtexttestimonials{
+color: #4acafe;
+font-weight: 900;
+grid-area: text;
+}
+
+
+
+.contact{
+color: white;
+display: flex;
+flex-direction: column;
+background-size: cover;
+background-repeat: no-repeat;
+justify-content: space-between;
+padding: 2% 15.5%;
+background-image: url(/img/bg_contact.png);
+}
+.tittlecontact{
+padding: 4% 0;
+font-size: 25px;
+}
+.gridcontact{
+display: grid;
+grid-template-columns: 3fr 1fr 3fr;
+grid-template-rows: 3fr 1fr 3fr 1fr 9fr 1fr 3fr;
+grid-template-areas:  "name . text1"
+                      ". . ."
+                      "email . text2"
+                      ". . ."
+                      "mensaje mensaje mensaje"
+                      ". . ."
+                      "boton . .";
+}
+.form1{
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+grid-area: name;
+}
+.form2{
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+grid-area: email;
+}
+.form1 input{
+background: transparent;
+border: 2px solid white;
+width: 100%;
+height: 60%;
+}
+.form2 input {
+background: transparent;
+border: 2px solid white;
+width: 100%;
+height: 60%;
+}
+.form3{
+grid-area: mensaje;
+display: flex;
+flex-direction: column;
+}
+.form3tittle{
+height: 10%;
+}
+.message{
+background: transparent;
+border: 2px solid white;
+width: 99.5%;
+height: 90%;
+}
+.textform{
+grid-area: text1;
+font-size: 15px;
+line-height: 1.5;
+}
+.infofinal{
+line-height: 1.5;
+
+grid-area: text2;
+}
+.messagebutton{
+grid-area: boton;
+width: 60%;
+height: 50%;
+background-color: #4acafe;
+color: white;
+border: none;
+}
+
+
+
+footer{
+display: flex;
+justify-content: space-between;
+padding: 2% 15.5%;
+background-color: rgb(76, 91, 102);
+color: rgb(109, 109, 109);
+}
+footer ul{
+display: flex;
+justify-content: space-between;
+width: 30%;
+text-decoration: dotted;
+}
+
+    @media screen and (max-width: 1550px) {
+    .graypart {
+      
+        width: 100%;
+      
+      }
+      .buttongraypart{
+        display: grid;
+        grid-area:5/2;
+        
+      }
+      .parapragphgraypart{
+        width: 100%;
+        justify-content: none;
+      }
+      .imgvideo{
+        width: 80%;
+        height: 100%;
+     
+      }
+      .visit{
+        width: 130%;
+        height: 60px;
+      }      
+    }
+    @media screen and (max-width: 1260px){
+      .graypart {
+      
+        width: 100%;
+        
+      }
+      .imgvideo{
+        display: none;
+      }
+      .buttongraypart{
+        display: grid;
+        grid-area:5/4;
+        width: 30%;
+        
+      }
+      .parapragphgraypart{
+        display: grid;
+        grid-area:4/4;
+        width: 50%;
+      }
+      .parapragphgraypart2{
+        display: grid;
+        grid-area:3/4;
+        width: 50%;
+      }
+      .titlegraypart{
+        display: grid;
+        grid-area:2/4;
+        width: 50%;
+      }
+      #coffep{
+        font-size: 14px;
+        margin-right: 20px;
+      }
+      #instantp{
+        font-size: 14px;
+        margin-right: 20px;
+      }
+      #seriousp{
+        font-size: 14px;
+        margin-right: 20px; 
+      }
+      #framep{
+        font-size: 14px;
+        margin-right: 20px;  
+      }
+    }
+
+     @media screen and (max-width: 1000px){
+      .menuheaderwhite{
+        font-size: 12px;
+
+     }
+     .part1headerwhite{
+      font-size: 13px;
+     }
+    }
+    @media screen and (max-width: 930px){
+      .Principal h1{
+        font-size: 26px;
+      }
+    }
+    @media screen and (max-width: 730px){
+      .menuheader{
+        font-size: 13px;
+      }
+      .menuheaderwhite{
+        font-size: 10px;
+
+     }
+    }
+     @media screen and (max-width: 690px){
+      #coffeh1{
+        font-size: 20px;
+      }
+      #instanth1{
+        font-size: 20px;
+      }
+      #serioush1{
+        font-size: 20px;
+      }
+      #frameh1{
+        font-size: 20px;
+      }
+      .Principal h1{
+        font-size: 20px;
+      }
+      .imagesjhondoe{
+        width: 80%;
+      }
+     }
+         @media screen and (max-width: 590px){
+      .menuheader{
+        font-size: 10px;
+      }
+      .menuheaderwhite{
+        font-size: 8px;
+
+     }
+    }
+        @media screen and (max-width: 533px){
+            .Principal h1{
+        font-size: 16px;
+      }
+
+      .whoisjhondoe{
+
+        background-size: cover;
+      }
+      .headerwhitepart h1{
+        font-size: 12px
+      }
+      .menuheaderwhite{
+
+        font-size: 5px;
+      }
+    }
+    @media screen and (max-width: 470px){
+      .graypart{
+        display: none;
+
+      }
+      .menuheader{
+        font-size: 6px;
+      }
+      .Logo{
+        font-size: 10px;
+      }
+    }
+    
+  
